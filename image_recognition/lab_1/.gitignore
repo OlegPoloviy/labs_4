@@ -1,0 +1,26 @@
+# Common virtual environment directories
+# Ignore virtualenv/venv created by different tools and OSs
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+env_local/
+
+# Pyenv and virtualenvwrapper
+.python-version
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+
+*.sln.docstates
+*.venv
